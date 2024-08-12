@@ -1,0 +1,17 @@
+{
+  "id": "yt-downloader",
+  "title": "YouTube Downloader",
+  "description": "Download YouTube videos to be used as music.",
+  "authors": [
+    {
+    "name": "Konoca"
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "verified": "12"
+  },
+  "scripts": [
+      "module.js"
+  ]
+}

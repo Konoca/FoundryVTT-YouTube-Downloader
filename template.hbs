@@ -1,0 +1,14 @@
+<p>
+If you have the exact URL of the YouTube video you would like to import, paste the URL (make sure to include https://).
+<br/><br/>
+If you don't have the video URL, you can search for YouTube videos. 5 videos will be given to you based on your query.
+<br/><br/>
+Click the checkbox if you'd like to stream the audio rather than download (currently not implemented).
+</p>
+<div class="flexrow">
+    <form id="yt-importer-form" autocomplete="off" onsubmit="event.preventDefault();">
+        <input id="yt-importer-query" name="yt-query" value="{{ytQuery}}"/>
+        <input id="yt-importer-stream" name="yt-stream" value="{{ytStream}}" type="checkbox" />
+        <button id="YTQuery" type="submit">Search</button>
+    </form>
+</div>

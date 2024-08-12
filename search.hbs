@@ -1,0 +1,17 @@
+{{#each results}}
+<div class="flexcol">
+    <img src="{{thumbnail}}">
+    <div class="flexrow">
+        <div class="flexcol">
+            <p><b>{{title}}</b></p>
+            <p>{{duration}}</p>
+        </div>
+        <div class="flexcol">
+            <p>{{channel}}</p>
+            <form id="{{url}}" autocomplete="off" onsubmit="event.preventDefault();">
+                <button id="{{id}}" type="submit">Use</button>
+            </form>
+        </div>
+    </div>
+</div>
+{{/each}}
